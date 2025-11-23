@@ -8,3 +8,11 @@
   git commit -m "added testing file"
   rm testing.py
   git restore testing.py
+  git add git_commands.txt
+ git commit -m "added git command"
+   git status
+     ls
+ git remote add origin https://github.com/FAIZANSHEIKH223/github-for-devops-workshop.git
+ git remote set-url origin https://tokennumber@github.com/FAIZANSHEIKH223/github-for-devops-workshop.git     
+ git remote -v
+ git push oregin master
