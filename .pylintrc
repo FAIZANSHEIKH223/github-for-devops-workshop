@@ -1,6 +1,8 @@
+cat > .pylintrc <<'EOF'
 [MESSAGES CONTROL]
 disable =
     C0114,  # missing-module-docstring
     C0115,  # missing-class-docstring
     C0116,  # missing-function-docstring
-    C0103   # variable name style (e.g. todo_list)
+    C0103   # variable name style (optional - e.g. todo_list)
+EOF
